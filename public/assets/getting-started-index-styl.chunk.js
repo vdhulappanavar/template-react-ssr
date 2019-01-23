@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{24:function(o,n,p){o.exports={root:"index__root--2Jb3i"}}}]);

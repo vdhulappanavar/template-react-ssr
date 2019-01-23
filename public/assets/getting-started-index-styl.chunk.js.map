@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/shared/components/getting-started/index.styl?f0bb"],"names":["module","exports","root"],"mappings":"4EACAA,EAAAC,QAAA,CAAkBC,KAAA","file":"getting-started-index-styl.chunk.js","sourcesContent":["// extracted by extract-css-chunks-webpack-plugin\nmodule.exports = {\"root\":\"index__root--2Jb3i\"};"],"sourceRoot":""}
