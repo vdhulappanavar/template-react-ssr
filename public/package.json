@@ -4,7 +4,7 @@
   "description": "Server side rendering template for React 16",
   "main": "src/index.js",
   "scripts": {
-    "start": "node prod.js",
+    "start": "node ./prod.js",
     "start1": "cross-env NODE_ENV=development babel-node src/index",
     "watch": "cross-env NODE_ENV=development nodemon src/index",
     "build": "npm-run-all -p build:client build:server build:node",
