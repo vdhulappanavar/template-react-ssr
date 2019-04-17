@@ -1,6 +1,6 @@
 const { join } = require('path');
 const WebpackBar = require('webpackbar');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
+
 module.exports = {
     output: {
         path: join(__dirname, '../public/assets'),
@@ -20,12 +20,6 @@ module.exports = {
         ]
     },
     plugins: [
-        new WebpackBar(),
-        new CopyWebpackPlugin([
-          {
-            from: join(__dirname, '../src/functions'),
-            to: join(__dirname, '../public')
-          }
-        ])
-      ]
+        new WebpackBar()
+    ]
 };
